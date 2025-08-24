@@ -1,6 +1,6 @@
-import { type AppData } from '../types';
-import { levelOneData } from './levels/level_1';
-import { levelTwoData } from './levels/level_2';
+import { type AppData } from '../types.ts';
+import { levelOneData } from './levels/level_1.ts';
+import { levelTwoData } from './levels/level_2.ts';
 
 export const appData: AppData = {
   app: {

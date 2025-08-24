@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
-import type { UserProgress, UnitProgress, Unit, Level } from '../types';
-import { appData } from '../data/content';
+import type { UserProgress, UnitProgress, Unit, Level } from '../types.ts';
+import { appData } from '../data/content.ts';
 
 const isSameDay = (date1: Date, date2: Date): boolean => {
   return (

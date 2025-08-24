@@ -1,12 +1,12 @@
 import React, { useState, useMemo, useEffect, useCallback } from 'react';
-import { appData } from './data/content';
-import type { Level } from './types';
-import HomeScreen from './screens/HomeScreen';
-import LevelScreen from './screens/LevelScreen';
-import UnitScreen from './screens/UnitScreen';
-import { useProgress } from './hooks/useProgress';
-import XIcon from './components/icons/XIcon';
-import AppHeader from './components/AppHeader';
+import { appData } from './data/content.ts';
+import type { Level } from './types.ts';
+import HomeScreen from './screens/HomeScreen.tsx';
+import LevelScreen from './screens/LevelScreen.tsx';
+import UnitScreen from './screens/UnitScreen.tsx';
+import { useProgress } from './hooks/useProgress.ts';
+import XIcon from './components/icons/XIcon.tsx';
+import AppHeader from './components/AppHeader.tsx';
 
 type Screen = 'home' | 'level' | 'unit';
 

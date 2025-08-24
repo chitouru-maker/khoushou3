@@ -1,9 +1,9 @@
 import React from 'react';
-import type { Level } from '../types';
-import LockIcon from '../components/icons/LockIcon';
-import ChevronRightIcon from '../components/icons/ChevronRightIcon';
-import ProgressBar from '../components/ProgressBar';
-import { playSound } from '../utils/sounds';
+import type { Level } from '../types.ts';
+import LockIcon from '../components/icons/LockIcon.tsx';
+import ChevronRightIcon from '../components/icons/ChevronRightIcon.tsx';
+import ProgressBar from '../components/ProgressBar.tsx';
+import { playSound } from '../utils/sounds.ts';
 
 interface HomeScreenProps {
   levels: Level[];

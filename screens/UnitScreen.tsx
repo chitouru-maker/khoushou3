@@ -1,23 +1,23 @@
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
-import type { Unit, UnitProgress, Card, MotivationalQuestion, Section, QuizQuestion } from '../types';
-import { SectionType } from '../types';
-import CheckCircleIcon from '../components/icons/CheckCircleIcon';
-import StarIcon from '../components/icons/StarIcon';
-import ExerciseIcon from '../components/icons/ExerciseIcon';
-import ChevronRightIcon from '../components/icons/ChevronRightIcon';
-import ChevronLeftIcon from '../components/icons/ChevronLeftIcon';
-import XIcon from '../components/icons/XIcon';
-import LockIcon from '../components/icons/LockIcon';
-import BookOpenIcon from '../components/icons/BookOpenIcon';
-import InsightIcon from '../components/icons/InsightIcon';
-import ScienceIcon from '../components/icons/ScienceIcon';
-import ActionIcon from '../components/icons/ActionIcon';
-import CardsIcon from '../components/icons/CardsIcon';
-import RewardIcon from '../components/icons/RewardIcon';
-import QuizModal from '../components/QuizModal';
-import ChestIcon from '../components/icons/ChestIcon';
-import SparklesIcon from '../components/icons/SparklesIcon';
-import { playSound } from '../utils/sounds';
+import type { Unit, UnitProgress, Card, MotivationalQuestion, Section, QuizQuestion } from '../types.ts';
+import { SectionType } from '../types.ts';
+import CheckCircleIcon from '../components/icons/CheckCircleIcon.tsx';
+import StarIcon from '../components/icons/StarIcon.tsx';
+import ExerciseIcon from '../components/icons/ExerciseIcon.tsx';
+import ChevronRightIcon from '../components/icons/ChevronRightIcon.tsx';
+import ChevronLeftIcon from '../components/icons/ChevronLeftIcon.tsx';
+import XIcon from '../components/icons/XIcon.tsx';
+import LockIcon from '../components/icons/LockIcon.tsx';
+import BookOpenIcon from '../components/icons/BookOpenIcon.tsx';
+import InsightIcon from '../components/icons/InsightIcon.tsx';
+import ScienceIcon from '../components/icons/ScienceIcon.tsx';
+import ActionIcon from '../components/icons/ActionIcon.tsx';
+import CardsIcon from '../components/icons/CardsIcon.tsx';
+import RewardIcon from '../components/icons/RewardIcon.tsx';
+import QuizModal from '../components/QuizModal.tsx';
+import ChestIcon from '../components/icons/ChestIcon.tsx';
+import SparklesIcon from '../components/icons/SparklesIcon.tsx';
+import { playSound } from '../utils/sounds.ts';
 
 
 interface UnitScreenProps {

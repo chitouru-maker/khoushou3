@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
-import StarIcon from './icons/StarIcon';
-import FireIcon from './icons/FireIcon';
-import UserCircleIcon from './icons/UserCircleIcon';
+import StarIcon from './icons/StarIcon.tsx';
+import FireIcon from './icons/FireIcon.tsx';
+import UserCircleIcon from './icons/UserCircleIcon.tsx';
 
 interface AppHeaderProps {
     points: number;
